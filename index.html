@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="div-body">
-    <section class="selector-cabecera">
+    <section id="home" class="selector-cabecera">
       <header class="cabecera">
         <img src="images/mi_careto.png" alt="Foto Grafía del Candidato">
         <h1>FRONT-END JUNIOR</h1>
@@ -97,12 +97,24 @@
         </article>
       </main>
     </section>
-    <footer>
+    <section class="formulario-con-cabecera">
       <div>
-        <h2>¿QUIERE CONOCERME MEJOR?</h2>
+        <h2>¿QUIERE CONTACTAR CONMIGO?</h2>
       </div>
-      <div class="footer-borde-formulario">
-        <form class="formulario" action="https://formspree.io/igonzalez729@telefonica.net" method="post">
+      <div class="colocacion-formulario">
+        <div class="colocacion-formulario-direccion-envio">
+          <div>
+            <img class="sobre" src="images/sobre.png" alt="imagen-de-sobre">
+          <div class="direccion-envio">
+            <p>Iván González Berná</p>
+            <p>28034 - Madrid - España</p>
+            <p>Telf. 620891814</p>
+            <p>E_Mail. igonzalez729@telefonica.net</p>
+          </div>
+          </div>
+        </div>
+        <div class="borde-formulario">
+          <form class="formulario" action="https://formspree.io/igonzalez729@telefonica.net" method="post">
           <div>
             <label for="nombre-compañia">Nombre de la compañía : </label>
             <input type="text" id="nombre-compañia" name="nombre-compañia"/>
@@ -135,7 +147,17 @@
             <input type="submit" value="Enviar formulario">
             <input type="reset" value="Restablecer valores">
           </div>
-        </form>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer">
+        <ul>
+          <li><a target="_blank" href="https://igonzalez729.github.io"><img class="enlaces" src="images/github.png" alt="acceso github"></a></li>
+          <li><a href="#home"><img class="home" src="images/inicio.png" alt="volver-al-inicio"></a></li>
+          <li><a target="_blank" href="https://www.linkedin.com/in/ivan-gonzalez-berna-a73ba5ba"><img class="enlaces" src="images/linkedin.png" alt="acceso github"></a></li>
+        </ul>
       </div>
     </footer>
   </div>

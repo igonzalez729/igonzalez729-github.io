@@ -27,9 +27,9 @@ body {
   background-color: rgb(214, 82, 70);
 }
 .cabecera img {
-  width: 14%;
   height: 0%;
   padding: 4px;
+  width: 132px;
 }
 .cabecera h1 {
   text-align-last: center;
@@ -242,38 +242,62 @@ em.enfasis-negrita {
 em.enfasis-subrayado {
   text-decoration: underline;
 }
-footer {
+.formulario-con-cabecera {
   overflow: auto;
-  margin: 0% 3% 1% 3%;
+  margin: 0% 3% 0% 3%;
 }
-footer h2 {
+.formulario-con-cabecera h2 {
   overflow: auto;
   text-align: center;
   font-size: 350%;
   color: rgb(214, 82, 70);
   background-color: rgb(37, 37, 37);
 }
-.footer-borde-formulario {
+.colocacion-formulario {
   overflow: auto;
-  border-right: 4px dashed #baa691;
-  border-bottom: 4px dashed #baa691;
-  border-left: 4px dashed #baa691;
+  display: flex;
+  align-items: center;
+  border-right: 6px dashed #baa691;
+  border-bottom: 6px dashed #baa691;
+  border-left: 6px dashed #baa691;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+/*.colocacion-formulario-direccion-envio {
+  display: flex;
+  margin-right: 1%;
+  margin-left: 1%;
+}*/
+.colocacion-formulario h3 {
+  overflow: auto;
+  margin-right: 1%;
+}
+.sobre {
+  width: 400px;
+  position: relative;
+  z-index: 1;
+  top: 30px;
+}
+.direccion-envio {
+  font-size: 105%;
+  position: relative;
+  z-index: 2;
+  top: -210px;
+  left: 112px;
+}
+.borde-formulario {
   margin-bottom: 2%;
-  margin-top: 1%;
-
 }
 .formulario {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  width: 99%;
-  margin-bottom: 1%;
   color: #634848;
   /*background-color: rgb(228, 208, 188);*/
 
   }
 .formulario input, textarea {
-  border: 2px solid #baa691;
+  border: 4px solid #baa691;
   background: rgb(228, 208, 188);
   /*background: #baa691;
   color: #baa691;*/
@@ -289,4 +313,23 @@ footer h2 {
   color: #634848;
   font-family: fuente-New_Press_Eroded_Bold;
   font-size: 110%;
+}
+.footer {
+  margin: 0% 3% 0% 3%;
+  background-color: rgb(37, 37, 37);
+}
+.footer ul {
+  display: flex;
+  list-style: none;
+
+}
+.footer ul li {
+  margin: 2% auto 0% auto;
+
+}
+.home {
+  width: 50px;
+}
+.enlaces {
+  width: 60px;
 }
