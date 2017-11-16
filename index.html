@@ -11,7 +11,7 @@
     <div class="div-body">
     <section id="home" class="selector-cabecera">
       <header class="cabecera">
-        <img src="images/mi-careto.png" alt="Foto-Grafía-del-Candidato">
+        <img src="images/mi-careto_opt.png" alt="Foto-Grafía-del-Candidato">
         <h1>FRONT-END JUNIOR</h1>
       </header>
       <div class="nombre-direccion">
@@ -61,8 +61,8 @@
               <ul>
                 <li><h4>LENGUAJES DE PROGRAMACIÓN</h4><p>Html, CSS, Java, JavaScript, C++, Visual Fox Pro, Cobol, Oracle, PL/SQL, Dbase IV.</p></li>
                   <img src="images/software.png" alt="imagen-software">
-                <li><h4>SISTEMAS OPERATIVOS</h4><p>Windows 95/98/Xp/Vista/7/8/10 Windows NT 4.0 Workstation/Server, Windows 2000/2003 Professional/Server, Windows 3.1/3.11 para trabajo en grupo y Ms-Dos.</p></li>
-                <li><h4>PAQUETES OFIMÁTICOS</h4><p>Microsoft Office 95/97/2000/Xp/2003/2007/2010/2013/2016, VMware, Citrix, Norton Ghost, Acronis</p></li>
+                <li><h4>SISTEMAS OPERATIVOS</h4><p>Windows Xp/Vista/7/8/10 Windows NT 4.0 Workstation/Server, Windows 2000/2003 Professional/Server, Windows 3.1/3.11 para trabajo en grupo y Ms-Dos.</p></li>
+                <li><h4>PAQUETES OFIMÁTICOS</h4><p>Microsoft Office 2007/2010/2013/2016, VMware, Citrix, Norton Ghost, Acronis</p></li>
               </ul>
             </div>
           </div>
@@ -103,45 +103,39 @@
       </div>
       <div class="colocacion-formulario">
         <div class="colocacion-formulario-direccion-envio">
-          <div>
-            <img class="sobre" src="images/sobre.png" alt="imagen-de-sobre">
-          <div class="direccion-envio">
-            <p>Iván González Berná</p>
-            <p>28034 - Madrid - España</p>
-            <p>Telf. 620891814</p>
-            <p>E_Mail. igonzalez729@telefonica.net</p>
-          </div>
+          <div class="div-sobre">
+            <img class="sobre" src="images/sobre.jpg" alt="imagen-de-sobre">
           </div>
         </div>
         <div class="borde-formulario">
-          <form class="formulario" action="https://formspree.io/igonzalez729@telefonica.net" method="post">
+          <form class="formulario" action="https://formspree.io/igonzalez729@telefonica.net" method="POST">
           <div>
-            <label for="nombre-compañia">Nombre de la compañía : </label>
-            <input type="text" id="nombre-compañia" name="nombre-compañia"/>
+            <!--<label for="nombre-compañia">Nombre de la compañía : </label>-->
+            <input type="text" id="nombre-compañia" name="nombre-compañia" placeholder="Nombre de la Compañía"/>
           </div>
           <div>
-            <label for="persona-contacto">Persona de contacto : </label>
-            <input type="text" id="persona-contacto" name="persona-contacto"/>
+            <!--<label for="persona-contacto">Persona de contacto : </label>-->
+            <input type="text" id="persona-contacto" name="persona-contacto" placeholder="Persona de Contacto"/>
           </div>
           <div>
-            <label for="cargo-compañia">Cargo en la compañía : </label>
-            <input type="text" id="cargo-compañia" name="cargo-compañia"/>
+            <!--<label for="cargo-compañia">Cargo en la compañía : </label>-->
+            <input type="text" id="cargo-compañia" name="cargo-compañia" placeholder="Cargo en la Compañía"/>
           </div>
           <div>
-            <label for="direccion">Dirección : </label>
-            <input type="text" id="direccion" name="direccion" maxlength="30"/>
+            <!--<label for="direccion">Dirección : </label>-->
+            <input type="text" id="direccion" name="direccion" placeholder="Dirección "maxlength="30"/>
           </div>
           <div>
-            <label for="telefono">Teléfono : </label>
-            <input type="tel" id="telefono" name="telefono" maxlength="9"/>
+            <!--<label for="telefono">Teléfono : </label>-->
+            <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" maxlength="9"/>
           </div>
           <div>
-            <label for="email">Correo Electrónico : </label>
-            <input type="email" id="email" name="email" maxlength="40"/>
+            <!--<label for="email">Correo Electrónico : </label>-->
+            <input type="email" id="email" name="email" placeholder="Correo Electrónico" maxlength="40"/>
           </div>
           <div>
-            <label for="descripcion">Mensaje : </label>
-            <textarea id="descripcion" name="descripcion" cols="80" rows="5"></textarea>
+            <!--<label for="descripcion">Mensaje : </label>-->
+            <textarea id="descripcion" name="descripcion" placeholder="Escriba su mensaje" cols="21" rows="5"></textarea>
           </div>
           <div class="formulario-botones">
             <input type="submit" value="Enviar formulario">
